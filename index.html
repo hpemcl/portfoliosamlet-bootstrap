@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HC | Portfolio</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    
+
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      
+      <!-- på tablet og mobil -->
+      <a class="navbar-item navbar-item-billede" href="index.html">
+        <img src="/assets/title - mobile.png" alt="Logo" style="width: 80px; height: auto;" >
+      </a>
+
+      <!--burgermenu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--burgermenu - navn -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <!--navbar links-->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="volunteering.html">Volunteering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar slut-->
+
+  <!-- Head text - desktop -->
+  <div class="container text-start float-start">
+    <div class="row align-items-center ">
+      <!-- Billedet -->
+      <div class="col-lg-6 col-sm-8 col-md-8 m-0 p-img-index ">
+        <figure class="figure">
+          <img src="assets/mig_badminton_sorthvid.png" class="img-fluid text-start float-start" alt="">
+        </figure>
+      </div>
+  
+      <!-- Tekst ved siden af billedet -->
+      <div class="col-5 forside-header-text">
+        <h2>Hannah Clausen</h2>
+        <h1>Portfolio</h1>
+  
+        <!-- Sociale medier links -->
+        <div class="ikoner-md">
+          <a href="mailto:hannahclausen12@gmail.com">
+            <img src="assets/email.svg"  class="ikoner-md-mail">
+          </a>
+          <a href="https://www.instagram.com/hannahpemclausen/">
+            <img src="assets/ig.svg" class="ikoner-md-ig">
+          </a>
+          <a href="https://www.linkedin.com/in/hannah-clausen/">
+            <img src="assets/linkedin.svg" class="ikoner-md-ld">
+          </a>
+          <a href="https://www.facebook.com/hannah.clausen.7">
+            <img src="assets/facebook.svg" class="ikoner-md-fb">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Add your script tags -->
+    <script src="index.js"></script>
+    <!-- Bootstrap 5 bundle (inkluderer Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
